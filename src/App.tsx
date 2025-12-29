@@ -10,7 +10,6 @@ import Contact from "./components/sections/Contact";
 import Footer from "./components/layout/Footer";
 import CursorEffect from "./components/layout/CursorEffect";
 import CommandBar from "./components/ui/CommandBar";
-import SoundToggle from "./components/ui/SoundToggle";
 import { ActiveSectionProvider } from "./hooks/active-section-provider";
 
 function App() {

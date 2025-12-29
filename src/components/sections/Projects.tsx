@@ -3,12 +3,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import SectionTitle from "../ui/SectionTitle";
 import Card from "../ui/Card";
 import {
-  ExternalLink,
   Github,
   ArrowRight,
-  Bot,
-  Smartphone,
-  Music,
   X,
 } from "lucide-react";
 
@@ -279,17 +275,6 @@ const Projects: React.FC = () => {
                       </span>
                     ))}
                   </div>
-
-                  {/* <div className="mt-auto">
-                    <a
-                      href={project.demoLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary-600 dark:text-primary-400 font-medium inline-flex items-center hover:underline"
-                    >
-                      View Project <ArrowRight size={16} className="ml-1" />
-                    </a>
-                  </div> */}
                 </Card>
               </motion.div>
             ))}
@@ -418,18 +403,6 @@ const Projects: React.FC = () => {
             </>
           )}
         </AnimatePresence>
-
-        {/* View all projects button
-        <motion.div 
-          className="mt-12 text-center"
-          initial={{ opacity: 0, y: 20 }}
-          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
-        >
-          <Button variant="outline" size="lg">
-            View All Projects <ArrowRight size={18} />
-          </Button>
-        </motion.div> */}
       </div>
     </section>
   );

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useScrollAnimation } from "../../hooks/useScrollAnimation";
 import SectionTitle from "../ui/SectionTitle";
 import Card from "../ui/Card";
-import { Calendar, Briefcase, GraduationCap, Award, Code } from "lucide-react";
+import { Calendar, Briefcase, GraduationCap, Code } from "lucide-react";
 import { useSectionInView } from "../../hooks/use-section-in-view";
 
 const About: React.FC = () => {

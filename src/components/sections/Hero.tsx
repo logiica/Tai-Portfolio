@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import { useScrollAnimation } from "../../hooks/useScrollAnimation";
 import {
   ArrowDownCircle,
   Github,
@@ -16,13 +15,10 @@ import { loadFull } from "tsparticles";
 import heroImage from "../../assets/images/avatar.png";
 import cvFile from "../../assets/TaiNguyen_SeniorFullStackEngineer_CV.pdf";
 import { useSectionInView } from "../../hooks/use-section-in-view";
-import InteractivityDetect from "react-particles"
 
-type detectType = "canvas" | InteractivityDetect | "parent" | "window" | undefined
 
 const Hero: React.FC = () => {
   const heroRef = useRef<HTMLElement | null>(null);
-  const isInView = useScrollAnimation(heroRef);
   const sectionInViewRef = useSectionInView("Home");
 
   const handleDownloadCV = () => {
