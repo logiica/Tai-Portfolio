@@ -194,7 +194,7 @@ const Hero: React.FC = () => {
             >
               <div className="flex gap-4">
                 <motion.a
-                  href="https://github.com/astra0x"
+                  href="https://github.com/logiica"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 dark:text-gray-400 hover:text-primary-500 dark:hover:text-primary-400 transition-colors"

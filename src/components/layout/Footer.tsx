@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
   ];
   
   const socialLinks = [
-    { icon: <Github size={18} />, href: 'https://github.com/astra0x', label: 'GitHub' },
+    { icon: <Github size={18} />, href: 'https://github.com/logiica', label: 'GitHub' },
     { icon: <Linkedin size={18} />, href: 'https://www.linkedin.com/in/tai-nguyen-a2600a3a0/', label: 'LinkedIn' },
   ];
 

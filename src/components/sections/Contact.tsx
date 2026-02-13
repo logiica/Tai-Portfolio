@@ -124,7 +124,7 @@ const Contact: React.FC = () => {
 
               <div className="flex space-x-4">
                 <motion.a
-                  href="https://github.com/astra0x"
+                  href="https://github.com/logiica"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-gray-200 dark:bg-dark-100 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-primary-500 hover:text-white dark:hover:bg-primary-500 transition-colors"

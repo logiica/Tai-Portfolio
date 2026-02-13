@@ -33,7 +33,7 @@ const Header: React.FC = () => {
   const socialLinks = [
     {
       icon: <Github size={18} />,
-      href: "https://github.com/astra0x",
+      href: "https://github.com/logiica",
       label: "GitHub",
     },
     {
