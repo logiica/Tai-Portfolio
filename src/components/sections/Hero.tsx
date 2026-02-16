@@ -13,7 +13,7 @@ import Button from "../ui/Button";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import heroImage from "../../assets/images/avatar.png";
-import cvFile from "../../assets/TaiNguyen_SeniorFullStackEngineer_CV.pdf";
+import cvFile from "../../assets/CV_TaiNguyen_FullStackEngineer.pdf";
 import { useSectionInView } from "../../hooks/use-section-in-view";
 
 
@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
   const handleDownloadCV = () => {
     const link = document.createElement("a");
     link.href = cvFile;
-    link.download = "TaiNguyen_SeniorFullStackEngineer_CV.pdf";
+    link.download = "CV_TaiNguyen_FullStackEngineer.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
