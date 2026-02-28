@@ -28,7 +28,7 @@ A modern, responsive personal portfolio website built with React, TypeScript, an
 1. Clone the repository:
    ```bash
    git clone https://github.com/logiica/Tai-Portfolio.git
-   cd modern-portfolio
+   cd Tai-Portfolio
    ```
 
 2. Install dependencies:
@@ -85,5 +85,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **GitHub**: https://github.com/logiica
 
 ---
-
-Built with ❤️ using React and modern web technologies.
