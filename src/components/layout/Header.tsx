@@ -38,7 +38,7 @@ const Header: React.FC = () => {
     },
     {
       icon: <Linkedin size={18} />,
-      href: "https://www.linkedin.com/in/tai-nguyen-a2600a3a0/",
+      href: "https://www.linkedin.com/in/tai-nguyen-75ab523b1/",
       label: "LinkedIn",
     },
   ];

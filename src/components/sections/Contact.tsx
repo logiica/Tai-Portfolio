@@ -134,7 +134,7 @@ const Contact: React.FC = () => {
                   <Github size={20} />
                 </motion.a>
                 <motion.a
-                  href="https://www.linkedin.com/in/tai-nguyen-a2600a3a0/arien-khardiya"
+                  href="https://www.linkedin.com/in/tai-nguyen-75ab523b1/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-gray-200 dark:bg-dark-100 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-primary-500 hover:text-white dark:hover:bg-primary-500 transition-colors"

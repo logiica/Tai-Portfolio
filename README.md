@@ -81,7 +81,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 - **Email**: tainguyen072ca@gmail.com
-- **LinkedIn**: https://www.linkedin.com/in/tai-nguyen-a2600a3a0/
+- **LinkedIn**: https://www.linkedin.com/in/tai-nguyen-75ab523b1/
 - **GitHub**: https://github.com/logiica
 
 ---

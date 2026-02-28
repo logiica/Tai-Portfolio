@@ -204,7 +204,7 @@ const Hero: React.FC = () => {
                   <Github size={22} />
                 </motion.a>
                 <motion.a
-                  href="https://www.linkedin.com/in/tai-nguyen-a2600a3a0/"
+                  href="https://www.linkedin.com/in/tai-nguyen-75ab523b1/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 dark:text-gray-400 hover:text-primary-500 dark:hover:text-primary-400 transition-colors"
