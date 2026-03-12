@@ -11,6 +11,7 @@ import Footer from "./components/layout/Footer";
 import CursorEffect from "./components/layout/CursorEffect";
 import CommandBar from "./components/ui/CommandBar";
 import { ActiveSectionProvider } from "./hooks/active-section-provider";
+import SoundToggle from "./components/ui/SoundToggle";
 
 function App() {
   const [isCommandBarOpen, setIsCommandBarOpen] = useState(false);
@@ -47,7 +48,7 @@ function App() {
             isOpen={isCommandBarOpen}
             onClose={() => setIsCommandBarOpen(false)}
           />
-          {/* <SoundToggle /> */}
+          <SoundToggle />
         </div>
       </ActiveSectionProvider>
     </ThemeProvider>
