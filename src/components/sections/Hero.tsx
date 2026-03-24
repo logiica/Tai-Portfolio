@@ -22,6 +22,14 @@ const Hero: React.FC = () => {
   const sectionInViewRef = useSectionInView("Home");
 
   const handleDownloadCV = () => {
+    // Track download event in Google Analytics
+    if (typeof window !== 'undefined' && (window as any).gtag) {
+      (window as any).gtag('event', 'download_cv', {
+        'file_name': 'CV_TaiNguyen_FullStackEngineer.pdf',
+        'file_type': 'pdf'
+      });
+    }
+
     const link = document.createElement("a");
     link.href = cvFile;
     link.download = "CV_TaiNguyen_FullStackEngineer.pdf";
