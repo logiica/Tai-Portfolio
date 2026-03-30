@@ -12,7 +12,6 @@ import {
 import Button from "../ui/Button";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
-import heroImage from "../../assets/images/avatar.png";
 import cvFile from "../../assets/CV_TaiNguyen_FullStackEngineer.pdf";
 import { useSectionInView } from "../../hooks/use-section-in-view";
 
@@ -267,10 +266,9 @@ const Hero: React.FC = () => {
                   repeatType: "reverse",
                 }}
               >
-                <img
-                  src={heroImage}
-                  alt="Tai Nguyen"
-                  className="w-full h-full object-cover rounded-full"
+                <div
+                  className="w-full h-full rounded-full bg-gradient-to-br from-primary-400 via-primary-600 to-primary-900"
+                  aria-hidden
                 />
               </motion.div>
             </div>
