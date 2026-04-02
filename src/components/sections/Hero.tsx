@@ -1,20 +1,13 @@
 import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import {
-  ArrowDownCircle,
-  Github,
-  Linkedin,
-  Mail,
-  ArrowRight,
-  Download,
-} from "lucide-react";
+import { ArrowDownCircle, Github, Linkedin, Mail, ArrowRight, Download } from "lucide-react";
 import Button from "../ui/Button";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import cvFile from "../../assets/CV_TaiNguyen_FullStackEngineer.pdf";
 import { useSectionInView } from "../../hooks/use-section-in-view";
-
+import heroImage from "../../assets/images/avatar.png";
 
 const Hero: React.FC = () => {
   const heroRef = useRef<HTMLElement | null>(null);
@@ -22,10 +15,10 @@ const Hero: React.FC = () => {
 
   const handleDownloadCV = () => {
     // Track download event in Google Analytics
-    if (typeof window !== 'undefined' && (window as any).gtag) {
-      (window as any).gtag('event', 'download_cv', {
-        'file_name': 'CV_TaiNguyen_FullStackEngineer.pdf',
-        'file_type': 'pdf'
+    if (typeof window !== "undefined" && (window as any).gtag) {
+      (window as any).gtag("event", "download_cv", {
+        file_name: "CV_TaiNguyen_FullStackEngineer.pdf",
+        file_type: "pdf",
       });
     }
 
@@ -160,10 +153,9 @@ const Hero: React.FC = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
             >
-              A seasoned full-stack engineer who consistently delivers scalable,
-              end-to-end solutions with strong business impact, bridging product
-              goals and technical execution to drive performance, reliability,
-              and growth.
+              A seasoned full-stack engineer who consistently delivers scalable, end-to-end
+              solutions with strong business impact, bridging product goals and technical execution
+              to drive performance, reliability, and growth.
             </motion.p>
 
             <motion.div
@@ -184,11 +176,7 @@ const Hero: React.FC = () => {
                 View My Work <ArrowRight size={18} />
               </Button>
 
-              <Button
-                variant="outline"
-                size="lg"
-                onClick={handleDownloadCV}
-              >
+              <Button variant="outline" size="lg" onClick={handleDownloadCV}>
                 Download CV <Download size={18} />
               </Button>
             </motion.div>
@@ -266,9 +254,10 @@ const Hero: React.FC = () => {
                   repeatType: "reverse",
                 }}
               >
-                <div
-                  className="w-full h-full rounded-full bg-gradient-to-br from-primary-400 via-primary-600 to-primary-900"
-                  aria-hidden
+                <img
+                  src={heroImage}
+                  alt="Tai Nguyen"
+                  className="w-full h-full object-cover rounded-full"
                 />
               </motion.div>
             </div>
@@ -284,10 +273,7 @@ const Hero: React.FC = () => {
           whileHover={{ scale: 1.1 }}
         >
           <span className="text-sm mb-2">Scroll Down</span>
-          <motion.div
-            animate={{ y: [0, 8, 0] }}
-            transition={{ duration: 1.5, repeat: Infinity }}
-          >
+          <motion.div animate={{ y: [0, 8, 0] }} transition={{ duration: 1.5, repeat: Infinity }}>
             <ArrowDownCircle size={24} />
           </motion.div>
         </motion.a>
