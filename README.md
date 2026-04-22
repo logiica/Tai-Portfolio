@@ -52,18 +52,6 @@ A modern, responsive personal portfolio website built with React, TypeScript, an
 
 ## 📁 Project Structure
 
-```
-src/
-├── components/
-│   ├── layout/          # Layout components (Header, Footer, etc.)
-│   ├── sections/        # Main sections (Hero, About, Projects, etc.)
-│   └── ui/              # Reusable UI components
-├── context/             # React contexts (Theme, etc.)
-├── hooks/               # Custom React hooks
-├── assets/              # Images, icons, and other assets
-└── ...
-```
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
